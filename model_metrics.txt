@@ -1,0 +1,16 @@
+Model: Logistic Regression
+Parameters: {'C': 1.0, 'solver': 'lbfgs'}
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.99      0.98      0.99      1254
+           1       0.94      0.94      0.94       308
+
+    accuracy                           0.98      1562
+   macro avg       0.96      0.96      0.96      1562
+weighted avg       0.98      0.98      0.98      1562
+
+Confusion Matrix:
+[[1235   19]
+ [  17  291]]
